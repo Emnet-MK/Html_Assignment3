@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Assignment #3</title>
+    <style>
+        /* common style for table 1 rows  */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        .left {
+            text-align: left;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        
+        /* style to place the image in table 4 in the right position */
+       .image-container {
+           padding: 50px 30px 50px 0;
+           height: 100%;
+           box-sizing: border-box;
+       }
+
+       .image-container img {
+           display: block;
+           margin-left: 0;
+           width: 100%;
+           height: auto;
+       }
+
+       .text{
+       text-align: center;
+       font-weight: normal;
+   }
+    </style>
+</head>
+
+    <h1 class="center">HTML Assignment #3</h1>
+
+    <!----- table 1 ------>
+    <table class="table">
+        <tr>
+            <td colspan="5" class="left" >left</td>
+            <td colspan="5">center</td>
+            <td colspan="5" class="right" >right</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="left">left</td>
+            <td colspan="5">center</td>
+            <td colspan="5"class="right" >right</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="left" >left</td>
+            <td  colspan="5">center</td>
+            <td  colspan="5" class="right" >right</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    <!------ table 2 ----->
+    <table class="table">
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td ></td>
+            <td rowspan="2" colspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+             <td></td> 
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td ></td>
+            <td></td>
+        </tr>
+ 
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+      </table>
+      <!-------------->
+
+    <br>
+    <br>
+
+    <!--- table 3 --->
+    <table class="table">
+        <tr>
+            <td ></td>
+            <td colspan="3"></td>
+            <td ></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td colspan="3"></td>
+            <td rowspan="4"></td>
+        </tr>
+        
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+        
+        <tr>
+            <td ></td>
+            <td colspan="3"></td>
+        </tr>
+
+        <tr>
+            <td ></td>
+            <td colspan="3"></td>
+            <td ></td>
+        </tr>
+        
+    </table>
+    <!-------------->
+
+    <br>
+    <br>
+
+    <!--- table 4 --->
+    <table border="1"> 
+        <tr>
+            <td colspan="6" height="30px"></td>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2" width="15%"></td> 
+            <td rowspan="3" colspan="2" width="70%" class="image-container">
+                <img src="./Image/River_with_tree.jpg" alt="river with trees">
+            </td>
+            <td rowspan="3" colspan="2" width="15%"></td>
+        </tr>
+        <tr></tr> 
+        <tr></tr> 
+        <tr>
+            <td colspan="6" height="20px"></td> 
+        </tr>
+    </table>
+    <!-------------->
+<br>
+<br>
+  
+    <h4 class="text">Created by - Emnet Mamo</h4>
+    <h4  class="text">Aug 9, 2024</h4>
+    
+</body>
+</html>
